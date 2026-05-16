@@ -67,3 +67,74 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - json (enabled by default - don't turn it off)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+
+
+# Doa Islami - CodeIgniter 4 API Project
+
+Aplikasi web modern berbasis CodeIgniter 4 yang menampilkan kumpulan doa-doa islami menggunakan Public API.  
+Project ini dibuat untuk memenuhi tugas UTS pemrograman web 2.
+
+
+# Fitur Utama
+
+# Menampilkan Semua Doa
+Aplikasi mengambil data doa dari Public API dan menampilkan dalam bentuk card/grid yang modern.
+
+# Detail Doa
+Pengguna dapat melihat detail lengkap doa:
+- Nama doa
+- Tulisan arab
+- Latin
+- Arti doa
+
+# Random Doa
+Fitur untuk menampilkan doa secara acak dari API.
+
+# Search Doa
+Pengguna dapat mencari doa berdasarkan kata kunci.  
+Pencarian akan menampilkan semua doa yang mengandung kata tersebut.
+
+Contoh:
+- makan
+- tidur
+
+# Copy Doa
+Pengguna dapat menyalin isi doa dengan satu klik.
+
+# hare WhatsApp
+Doa dapat langsung dibagikan ke WhatsApp.
+
+# Dark Mode
+Aplikasi memiliki fitur dark mode dengan tampilan yang tetap nyaman dilihat.
+
+# Loading Animation
+Terdapat loading spinner saat halaman dimuat.
+
+# Responsive Design
+Tampilan menyesuaikan desktop maupun mobile.
+
+# Modern UI/UX
+Menggunakan:
+- Bootstrap 5
+- Bootstrap Icons
+- Animate CSS
+- Glassmorphism UI
+- Hover Animation
+- Smooth Transition
+
+# Teknologi yang Digunakan
+
+- PHP 8+
+- CodeIgniter 4
+- Bootstrap 5
+- Bootstrap Icons
+- Animate.css
+- Public REST API
+- CURLRequest CI4
+
+# API Yang Digunakan
+
+API Doa Islam:
+https://doa-doa-api-ahmadramadhan.fly.dev
+
+Link Video Demo: https://drive.google.com/file/d/18OVDsqJhmNv7gtWm6vaob-VS1yY0RK6f/view?usp=sharing
